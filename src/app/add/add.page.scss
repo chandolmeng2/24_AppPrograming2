@@ -1,0 +1,248 @@
+.flip_add
+{
+    position:absolute;
+    background-color:#ffffff;
+    height:900px;
+    width:412px;
+    padding:0px;
+}
+.content
+{
+    border:solid 1px #d9d9d9;
+    height:80px;
+    width:288px;
+    border-radius:10px;
+    left:62px;
+    top:644px;
+    position:absolute;
+}
+.content_text
+{
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:22px;
+    font-family:Inter;
+    left:62px;
+    top:615px;
+    width:150px;
+    height:24px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.content_text2
+{
+    font-size: 18px;
+}
+.textcolor
+{
+    border:solid 2px #d9d9d9;
+    height:30px;
+    width:44px;
+    border-radius:10px;
+    top:562px;
+    left:204px;
+    position:absolute;
+}
+.textcolor_text
+{
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:22px;
+    font-family:Inter;
+    left:204px;
+    top:530px;
+    width:107px;
+    height:24px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.datecolor
+{
+    border:solid 2px #d9d9d9;
+    height:30px;
+    width:44px;
+    border-radius:10px;
+    top:562px;
+    left:62px;
+    position:absolute;
+}
+.datecolor_text
+{
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:22px;
+    font-family:Inter;
+    left:62px;
+    top:530px;
+    width:150px;
+    height:24px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.custom_date
+{
+    top:344px;
+    left:32px;
+    position:absolute;
+}
+.custom_date_text
+{
+    color:#000000;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:22px;
+    font-family:Inter;
+    left:62px;
+    top:309px;
+    width:107px;
+    height:24px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.submit
+{
+    --background:url(../../assets/submit.png);
+    height:51px;
+    width:288px;
+    color:#000000;
+    font-weight: bold;
+    font-size: 18px;
+    --border-radius:10px;
+    top:747px;
+    left:62px;
+    position:absolute;
+}
+.title1
+{
+    color:#000000;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:20px;
+    font-family:Inter;
+    left:59px;
+    top:260px;
+    width:295px;
+    height:26px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.logo
+{
+    height:165px;
+    width:165px;
+    left:124px;
+    top:95px;
+    position:absolute;
+}
+.menu
+{
+    height:65px;
+    width:412px;
+    top:834px;
+    left:0px;
+    position:absolute;
+}
+.add
+{
+    height:48px;
+    width:48px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    position:absolute;
+    left:184px;
+    top:835px;
+}
+.plus
+{
+    color:#000000;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Inter;
+    font-weight: bold;
+    left:160px;
+    top:877px;
+    width:95px;
+    height:19px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+
+.account
+{
+    height:46px;
+    width:46px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    position:absolute;
+    left:350px;
+    top:835px;
+}
+.acc
+{
+    color:#000000;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Inter;
+    font-weight: bold;
+    left:352px;
+    top:877px;
+    width:41px;
+    height:19px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.main
+{
+    color:#000000;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Inter;
+    font-weight: bold;
+    left:17px;
+    top:877px;
+    width:41px;
+    height:19px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.home
+{
+    height:46px;
+    width:53.05882263183594px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    position:absolute;
+    left:11px;
+    top:835px;
+}

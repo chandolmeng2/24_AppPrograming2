@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>main</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">main</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-datetime class="cal" presentation="date" [highlightedDates]="highlightedDates"></ion-datetime>
+    <ion-button class="submit_small" (click)="show()">SHOW</ion-button>
+    <div class="content">
+    <div *ngFor="let item of data">
+      {{ item.custom_date}}: {{ item.content }}
+    </div>
+    </div>
+  
+    <div id='title1' class='title1'>당신의 감정은 무슨 색인가요?</div>
+    <img id='logo' class='logo' src='assets/logo.png'/>
+    <img id='menu' class='menu' src="assets/menu.png"/>
+    <div routerLink="/add">
+      <img id='add' class='add' src='assets/add.png'/>
+      <div id='plus' class='plus'>당신의 색상</div>
+    </div>
+    <div routerLink="/account">
+      <img id='account' class='account' src='assets/account.png' />
+      <div id='acc' class='acc'>계정</div>
+    </div>
+    <div routerLink="/main">
+      <img id='home' class='home' src='assets/home.png'/>
+      <div id='main' class='main'>메인</div>
+    </div>
+    
+</ion-content>

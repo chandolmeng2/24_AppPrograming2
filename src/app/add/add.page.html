@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>add</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">add</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form (ngSubmit)="addData()" #loginForm="ngForm">
+    <ion-datetime [(ngModel)]="custom_date" presentation="date" [preferWheel]="true" name="custom_date" class="custom_date" ></ion-datetime>
+    <ion-input [(ngModel)]="datecolor" type="color" name="datecolor" class="datecolor"></ion-input>
+    <ion-input [(ngModel)]="textcolor" type="color" name="textcolor" class="textcolor"></ion-input>
+    <ion-input [(ngModel)]="content" type="text" name="content" class="content" maxlength="20"></ion-input>
+    <ion-button type="submit" class="submit">추가하기</ion-button>
+  </form>
+  
+  <div id='content_text' class='content_text'>내용<span class="content_text2">(20자 이내)</span></div>
+  <div id='textcolor_text' class='textcolor_text'>글자 색상</div>
+  <div id='datecolor_text' class='datecolor_text'>당신의 색상</div>
+  <div id='custom_date_text' class='custom_date_text'>날짜</div>
+  <div id='title1' class='title1'>당신은 무슨 색인가요?</div>
+  <img id='logo' class='logo' src='assets/logo.png'/>
+  <img id='menu' class='menu' src="assets/menu.png"/>
+  <div routerLink="/add">
+    <img id='add' class='add' src='assets/add.png'/>
+    <div id='plus' class='plus'>당신의 색상</div>
+  </div>
+  <div routerLink="/account">
+    <img id='account' class='account' src='assets/account.png' />
+    <div id='acc' class='acc'>계정</div>
+  </div>
+  <div routerLink="/main">
+    <img id='home' class='home' src='assets/home.png'/>
+    <div id='main' class='main'>메인</div>
+  </div>
+    
+</ion-content>

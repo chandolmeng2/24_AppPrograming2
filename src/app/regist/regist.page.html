@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>regist</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">regist</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form (ngSubmit)="regist()" #logintForm="ngForm">
+    <ion-input type="text" id='id' class='id' [(ngModel)]="id" name="id" placeholder='  아이디' required></ion-input>
+		<ion-input type="text" id='pw' class='pw' [(ngModel)]="pw" name="pw" placeholder='  비밀번호' required></ion-input>
+    <ion-input type="text" id='phone' class='phone' [(ngModel)]="phone" name="phone" placeholder='  휴대폰번호' required></ion-input>
+		<ion-button type='submit' id='submit' class='submit'>가입</ion-button>
+  
+  </form>
+    <div id='title1' class='title1'>나의 감정을 색으로 표현하다</div>
+    <div id='title2' class='title2'>회원가입</div>
+    <img id='logo' class='logo' src='assets/logo.png'/>
+    <div id='id_text' class='id_text'>아이디</div>
+    <div id='pw_text' class='pw_text'>비밀번호</div>
+    <div id='phone_text' class='phone_text'>휴대폰번호</div>    
+</ion-content>

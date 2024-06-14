@@ -1,0 +1,32 @@
+<a routerLink="/regist">
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+</a>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form (ngSubmit)="login()" #logindForm="ngForm">
+    <ion-input class="id" [(ngModel)]="id" name="id" type="text" required></ion-input>
+    <ion-input class="pw" [(ngModel)]="pw" name="pw" type="password" required></ion-input>
+    <ion-button class="submit" type="submit">가입</ion-button>
+  </form>
+  
+    <div id='title1' class='title1'>나의 감정을 색으로 표현하다</div>
+    <div id='title2' class='title2'>계정 로그인</div>
+    <div id='text4' class='text4'>계정이 없으신가요?   <a routerLink="/regist">가입하기</a></div>
+    <div id='text2' class='text2'>또는</div>
+    <div id='line1' class='line1'></div>
+    <div id='line2' class='line2'></div>
+    <img id='logo' class='logo' src='assets/logo.png'/>
+    <div id='pw_text' class='pw_text'>비밀번호</div>
+    <div id='id_text' class='id_text'>아이디</div>
+
+    
+</ion-content>
